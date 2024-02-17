@@ -1,0 +1,153 @@
+*{
+    font-family: 'Teko', sans-serif;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+} 
+.new_form{
+    display: flex;
+    flex-direction: column;
+
+} 
+
+#navigation_bar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#navigation_bar ol,#navigation_bar a{
+    
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+    align-self: flex-start;
+    justify-content: flex-start;
+   
+    /* height:10px; */
+   
+
+}
+
+#navigation_bar ol  {
+    background-color: crimson;
+}
+
+#navigation_bar a{
+    width:3.9rem;
+}
+
+/* #navigation_bar .item1{
+    width:4.76rem;
+    background-color: crimson;
+    position: relative;
+    right:187px;
+} */
+
+
+
+#navigation_bar a img{
+    width:39px;
+    height:29px;
+
+}
+
+
+
+#front_view{
+    font-size:16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:86%;
+    /* height:301px; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin:auto;
+}
+.primary{
+    display: flex;
+    height:275px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+
+}
+
+.primary p{
+    font-size: 13px;
+}
+.primary h1{
+    font-size: 15px;
+}
+
+
+#services{
+    margin-top: 15px;
+}
+
+.subservice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tasks img,#service_item1 img,#service_item2 img{
+    width:50px;
+    height:35px;
+}
+
+
+.subservice .tasks{
+    min-width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px;
+}
+
+.order button{
+    width:70vw;
+}
+
+#clients{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    min-height: 51vh;
+    justify-content: left;
+}
+
+#clients .client{
+    margin:7px 9px;
+}
+
+#contact_us{
+    margin-top: 15px;
+}
+
+form{
+    width:90%;
+    margin: auto;
+}
+
+.taking_input input,.taking_input textarea{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+button {
+    height: 1rem;
+    background-color: black;
+    width: 19rem;
+    color: white;
+    border-radius: 3px ;
+}
